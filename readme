@@ -1,0 +1,11 @@
+Создаем виртуальное окружение 
+python -m venv [name_virt_dir]
+name_virt_dir\scripts\activate (activate.ps1 в powershell)
+инсталируем PySide2
+pip install PySide2
+Рисуем форму в дизайнере
+Переводим формат ui в py для использования в python
+pyside2-uic crmwindow.ui -o -x ui_crmwindow.py
+Подключаем форму и программируем в Code
+Подключаем окружение в visual code Ctrl-Shift-P select Interpreter выбираем name_virt_dir\scripts\python.exe
+CRMem.py
